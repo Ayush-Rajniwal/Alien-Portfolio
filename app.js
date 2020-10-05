@@ -44,7 +44,7 @@ const templates = {
 
 const consoleMSG = () => {
   console.log(`%c
-Well! Do you want to look at the source code? Use this https://www.github.com. 
+Well! Do you want to look at the source code? Use this https://github.com/Ayush-Rajniwal/Alien-Portfolio. 
 I created this portfolio from scratch. I took some inspiration from here and there, but most of the stuff is my original creation.
 No Code Copy Pasted.
 I haven't used any fancy framework because I want to up-lift my basics of web-development skills. I hope you will like it.😊`,
