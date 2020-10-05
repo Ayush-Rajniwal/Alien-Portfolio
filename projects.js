@@ -1,6 +1,6 @@
 const projects = [{
     id: 1,
-    title: "CVOID Live",
+    title: "COVID Live",
     img: "./images/covid-live.png",
     tags: ["NodeJS", "Console", "Glitch"],
     desc: "Get COVID results in your terminal💻",
