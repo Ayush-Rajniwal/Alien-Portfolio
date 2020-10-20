@@ -727,6 +727,7 @@ section .heading {
 .describe pre {
   text-align: left;
   white-space: pre-line;
+  font-size: 1.1em;
 }
 
 .msg-btn {
