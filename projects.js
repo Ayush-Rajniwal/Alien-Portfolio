@@ -1,11 +1,23 @@
-const projects = [{
+const projects = [
+    {
+        id: 0,
+        title: "MoneyLit",
+        img: "./images/moneylit.jpg",
+        tags: ["Ionic", "React", "Capacitor"],
+        desc: "An app to track your money",
+        links: {
+            github: null,
+            live: "https://play.google.com/store/apps/details?id=com.ayushRajniwal.MoneyLit"
+        }
+    },
+    {
     id: 1,
     title: "COVID Live",
     img: "./images/covid-live.png",
     tags: ["NodeJS", "Console", "Glitch"],
     desc: "Get COVID results in your terminal💻",
     links: {
-        github: "https://github.com",
+        github: "https://github.com/Ayush-Rajniwal/covid.live",
         live: "https://covid-live.glitch.me/"
     }
 },

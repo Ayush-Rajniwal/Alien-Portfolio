@@ -1,4 +1,20 @@
-const experience = [{
+const experience = [
+    {
+        id: 0,
+        date: "Oct-20 / Present",
+        compName: "Josh Technology Group",
+        pos: "Frontend Developer",
+        ts: ["AngularJS", "React", "SASS", "Storybook"],
+        resp: [`Working as a Frontend Engineer for a US based client BWell.`,
+            `Worked on improving legacy code and adding new features to the app.`,
+            `Transferring AngularJS code to React`,
+        ],
+        link: {
+            live: "https://play.google.com/store/apps/details?id=com.icanbwell.members&hl=en_IN&gl=US"
+        }
+    },
+    
+    {
     id: 1,
     date: "Apr-20 / May-20",
     compName: "Decodr Technologies ",

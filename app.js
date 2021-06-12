@@ -13,8 +13,8 @@ const templates = {
           </div>
           <div class="project-links">
 
-            <a target="_new" href="${links.github}"><i class="fa fa-github"></i></a>
-           ${links.live != null ? `<a target="_new" href="${links.live}"><i class="fa fa-external-link"></i></a>` : ``} 
+            ${links.github !== null ? `<a target="_new" href="${links.github}"><i class="fa fa-github"></i></a>`: ``}
+            ${links.live != null ? `<a target="_new" href="${links.live}"><i class="fa fa-external-link"></i></a>` : ``} 
           </div>
         </div>`
   },
