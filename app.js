@@ -129,8 +129,7 @@ I hope you guys will figure out my co-ordinate soon and take me back to my plane
 })
 
 // resize canvas on screen size change
-$(document).resize(() => {
+$(window).resize(() => {
   document.getElementById("starfield").style.width = document.body.clientWidth + "px";
   document.getElementById("starfield").style.height = document.body.clientHeight + "px";
-
-})
+});

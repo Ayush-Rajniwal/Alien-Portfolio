@@ -13,7 +13,6 @@ body {
   padding: 0;
   height: 100%;
   background-color: black;
-
   font-family: "Roboto", sans-serif;
 }
 
@@ -350,6 +349,10 @@ section {
   background-color: #011f41;
 }
 
+section.experience {
+  padding: 1em;
+}
+
 section .heading {
   font-size: 3.5em;
   padding-bottom: 0.5em;
@@ -370,19 +373,20 @@ section .heading {
   min-width: 80vw;
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: stretch;
   flex-wrap: wrap;
+  gap: 2em
 }
 
 .project-card {
   max-width: 300px;
   max-height: 400px;
   background-color: #212121;
-  margin: 2em;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   text-align: center;
   /* cursor: pointer; */
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  position: relative;
 }
 .project-card:hover {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
@@ -425,6 +429,9 @@ section .heading {
   padding: 10px;
   font-size: 1.5em;
   background-color: #303030;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 .project-links a {
   color: white;
@@ -565,6 +572,7 @@ section .heading {
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 .experience-card {
@@ -574,9 +582,10 @@ section .heading {
   padding: 2em;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   position: relative;
-  min-width: 900px;
+  min-width: min(900px, 100%);
   max-width: 900px;
   z-index: 1;
+  width: 100%;
 }
 
 .experience-card:hover {
@@ -616,6 +625,7 @@ section .heading {
 .technology-stack {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .experience-link {
@@ -687,7 +697,6 @@ section .heading {
   flex-wrap: wrap;
 }
 .profile {
-  flex: 1;
   position: relative;
   padding: 2em;
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
@@ -868,7 +877,6 @@ section .heading {
   }
 
   .intro {
-    width: 100%;
     display: flex;
     font-size: 10vw;
     align-items: center;
